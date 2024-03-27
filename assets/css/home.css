@@ -1,0 +1,30 @@
+.home {
+  background-color: var(--background-color);
+  height: 100vh;
+  width: 100%;
+}
+
+.login-window {
+  border: 0.8px solid var(--primary-color);
+  padding: 5%;
+  width: 60vw;
+  border-radius: 6px;
+}
+
+.login-window-child {
+  height: 100%;
+}
+
+.login-window-child > a > img {
+  height: 150px;
+  width: 100%;
+}
+
+.login-window-child > a > h4 {
+  color: var(--text-color);
+  text-align: center;
+}
+
+.login-window-left {
+  border-right: 1px solid var(--primary-color);
+}

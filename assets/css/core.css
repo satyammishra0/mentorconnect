@@ -1,0 +1,103 @@
+.width-100 {
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+}
+
+.flex-total-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-center-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-center {
+  display: grid;
+  place-items: center;
+}
+
+.grid-2 {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3%;
+}
+
+.grid-3 {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3%;
+}
+
+.grid-4 {
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3%;
+}
+
+.main-heading {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333; /* Adjust color as needed */
+  margin-bottom: 10px; /* Adjust spacing as needed */
+}
+
+.sub-heading {
+  font-size: 20px;
+  font-weight: bold;
+  color: #555; /* Adjust color as needed */
+  margin-bottom: 8px; /* Adjust spacing as needed */
+}
+
+.text {
+  font-size: 16px;
+  color: #666; /* Adjust color as needed */
+  line-height: 1.5; /* Adjust line height as needed */
+  margin-bottom: 16px; /* Adjust spacing as needed */
+}
+
+.background-property {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.error-message {
+  font-size: 14px;
+  color: rgb(255, 91, 91);
+}
+
+@media screen and (max-width: 700px) {
+  .grid-3 {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0;
+  }
+
+  .grid-2 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .main-heading {
+    font-size: 20px;
+  }
+
+  .smaller-heading {
+    font-size: 16px;
+  }
+
+  .text {
+    font-size: 14px;
+  }
+}
