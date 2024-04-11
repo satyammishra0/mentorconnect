@@ -17,4 +17,3 @@ $client->setAuthConfig(home_path() . 'client_secret_401334880504-ccblqkv0bjb41r1
 $client->setRedirectUri(home_path() .  'pages/index.php');
 // Scope to minimize the file load and include only youtube api
 $client->addScope(Google_Service_YouTube::YOUTUBE_READONLY);
-
